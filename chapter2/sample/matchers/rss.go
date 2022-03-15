@@ -4,11 +4,10 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
+	"goinaction/chapter2/sample/search"
 	"log"
 	"net/http"
 	"regexp"
-
-	"github.com/goinaction/code/chapter2/sample/search"
 )
 
 type (
