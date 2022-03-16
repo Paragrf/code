@@ -4,8 +4,7 @@ package main
 
 import (
 	"database/sql"
-
-	_ "github.com/goinaction/code/chapter3/dbdriver/postgres"
+	_ "goinaction/chapter3/dbdriver/postgres"
 )
 
 // main is the entry point for the application.

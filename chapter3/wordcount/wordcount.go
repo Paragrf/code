@@ -3,10 +3,9 @@ package main
 
 import (
 	"fmt"
+	"goinaction/chapter3/words"
 	"io/ioutil"
 	"os"
-
-	"github.com/goinaction/code/chapter3/words"
 )
 
 // main is the entry point for the application.
