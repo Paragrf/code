@@ -17,7 +17,7 @@ func main() {
 
 	// Use Fprintf to concatenate a string to the Buffer.
 	// Passing the address of a bytes.Buffer value for io.Writer.
-	fmt.Fprintf(&b, "World!")
+	fmt.Fprintf(&b, "World!\n")
 
 	// Write the content of the Buffer to the stdout device.
 	// Passing the address of a os.File value for io.Writer.
