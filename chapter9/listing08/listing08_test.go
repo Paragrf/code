@@ -17,7 +17,7 @@ func TestDownload(t *testing.T) {
 		statusCode int
 	}{
 		{
-			"http://www.goinggo.net/feeds/posts/default?alt=rss",
+			"https://blog.dol.gov/rss.xml",
 			http.StatusOK,
 		},
 		{
